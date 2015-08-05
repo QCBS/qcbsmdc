@@ -16,8 +16,6 @@
 #' #GET a particular table
 #' the_table<-qcbsmdc_get_tables(conn=conn,form_id='MyForm1',table='uuid0MyTable')
 
-
-
 qcbsmdc_get_tables <- function(conn,form_id,table='all')
 {
   if (table=='all') {
