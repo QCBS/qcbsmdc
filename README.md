@@ -1,11 +1,13 @@
 # qcbsmdc
 R package to pull data from the Mobile Data Collection System of the Quebec Centre for Biodiversity Science
 
+```r
 install_github('https://github.com/QCBS/qcbsmdc.git')
 library(qcbsmdc)
+```
 
 ##Example Usage
-```rsplus
+```r
 conn=list(user_id="JohnDoe",api_key='8fjasdf3h112aad') 
 my_forms<-qcbsmdc_list_forms(conn)
 # Choose first form
