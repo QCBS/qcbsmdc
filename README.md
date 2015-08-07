@@ -16,4 +16,7 @@ my_forms<-qcbsmdc_list_forms(conn)
 table_list<-qcbsmdc_list_tables(conn,my_forms[1])
 # Choose first table
 the_table<-qcbsmdc_get_tables(conn=conn,form_id=my_forms[1],table=table_list[1])
+# Get all tables
+the_table<-qcbsmdc_get_tables(conn=conn,form_id=my_forms[1],table='all')
+
 ```
