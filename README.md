@@ -19,7 +19,7 @@ table_list<-qcbsmdc_list_tables(conn,my_forms[1])
 the_table<-qcbsmdc_get_tables(conn=conn,form_id=my_forms[1],table=table_list[1])
 # Get all tables
 the_tables<-qcbsmdc_get_tables(conn=conn,form_id=my_forms[1],table='all')
-# Get all photos in table 'TablePhotos' and save to local folder
+# If the_tables has a table named, for example 'TablePhotos' which contains links to images, you can save them to a local folder this way
 qcbsmdc_get_files(the_tables$TablePhotos,'C:/User/MyName/MyFiles')
 
 ```
