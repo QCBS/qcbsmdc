@@ -4,6 +4,7 @@ R package to pull data from the Mobile Data Collection System of the Quebec Cent
 ```r
 install.packages('devtools')
 install_github('QCBS/qcbsmdc')
+library(devtools)
 library(qcbsmdc)
 ```
 
