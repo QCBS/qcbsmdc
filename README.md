@@ -9,7 +9,7 @@ library(qcbsmdc)
 ```
 
 ##Example Usage
-Your user_id is the username you choose when registering on the http://quebio.ca/odk website. Your API key can be seen by clicking on "My account"
+Your user_id is the username you choose when registering on the http://mdc.quebio.ca/ website. Your API key can be seen by clicking on "My account"
 ```r
 conn=list(user_id="JohnDoe",api_key='8fjasdf3h112aad') 
 my_forms<-qcbsmdc_list_forms(conn)
