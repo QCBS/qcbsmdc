@@ -5,6 +5,11 @@ Version: 0.1
 Date: 2015-08-05
 Author: Guillaume Larocque <glaroc@gmail.com>
 Maintainer: Guillaume Larocque <glaroc@gmail.com>
-Description: This package allows the easy transfer of data collected through the QCBS Mobile Data Collection System and ODK Collect to R. See http://quebio.ca/odk. 
+Description: This package allows the easy transfer of data collected through the
+    QCBS Mobile Data Collection System and ODK Collect to R. See http://quebio.ca/
+    odk.
 License: GPL-2
-Imports: RCurl, rjson
+Imports:
+    RCurl,
+    rjson
+RoxygenNote: 5.0.1
