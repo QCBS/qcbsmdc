@@ -13,6 +13,6 @@
 
 qcbsmdc_list_tables <- function(conn,form_id)
 {
-  table_list<-fromJSON(getForm('http://quebio.ca/odk/api/list_tables.php',user_id=conn$user_id,api_key=conn$api_key,formId=form_id,json=TRUE,structure=FALSE))
+  table_list<-fromJSON(getForm('http://mdc.quebio.ca/api/list_tables.php',user_id=conn$user_id,api_key=conn$api_key,formId=form_id,json=TRUE,structure=FALSE))
   return(table_list)
 }

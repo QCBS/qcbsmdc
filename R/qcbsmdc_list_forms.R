@@ -11,6 +11,6 @@
 #' my_forms<-qcbsmdc_list_forms(conn)
 qcbsmdc_list_forms <- function(conn)
 {
-  forms<-names(fromJSON(getForm('http://quebio.ca/odk/api/formlist.php',user_id=conn$user_id,api_key=conn$api_key,json=TRUE)))
+  forms<-names(fromJSON(getForm('http://mdc.quebio.ca/api/formlist.php',user_id=conn$user_id,api_key=conn$api_key,json=TRUE)))
   return(forms)
 }
